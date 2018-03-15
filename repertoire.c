@@ -35,6 +35,17 @@ void afficheFiche(ficheptr lafiche) {
 void ajouterFiche(repertoire lerepertoire, ficheptr lafiche) {
 }
 void majuscule(ficheptr lafiche) {
+	int i;
+for (i=0;i<25;i++)
+{
+    if (lafiche.nom[0]=='A'+i)
+    
+}
+for (i=0;i<25;i++)
+{
+	if (lafiche.prenom[0]=='A'+i)
+   
+}
 }
 void ajouterDansOnglet(ongletptr *longlet, ficheptr lafiche) {
 }
